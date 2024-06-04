@@ -83,8 +83,6 @@ app.post("/", async function(req, res){
             console.log(`Email sent: ${info.response}`);
         }
     })
-
-
     res.redirect("/");
 });
 
